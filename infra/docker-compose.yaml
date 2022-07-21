@@ -15,7 +15,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: .
+    image: vshkinder11/api_yamdb:latest
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 
