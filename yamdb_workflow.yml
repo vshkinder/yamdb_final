@@ -58,6 +58,7 @@ jobs:
         # Пуш образа в Docker Hub
         uses: docker/build-push-action@v2
         with:
+          context: api_yamdb
           push: true
           tags: vshkinder11/api_yamdb:v1
   deploy:
