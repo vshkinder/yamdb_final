@@ -1,4 +1,4 @@
-![example workflow](https://github.com/vshkinder/yamdb_final/actions/workflows/yamdb_workflow/badge.svg)
+![example workflow](https://github.com/vshkinder/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Окружение
 
