@@ -67,7 +67,7 @@ jobs:
             sudo docker pull ${{ secrets.USER }}/api_yamdb
             sudo docker-compose stop
             sudo docker-compose rm web
-            rm .env
+            sudo rm .env
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
