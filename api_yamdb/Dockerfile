@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 
-RUN workdir /app
+WORKDIR /app
 
 COPY . .
 
