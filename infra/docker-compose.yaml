@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
   db:
-    image: postgres:13.0-alpine
+    image: postgres:13.4-alpine
     volumes:
       - /var/lib/postgresql/data/
     env_file:
       - ./.env
   web:
-    image: vshkinder11/api_yamdb:v1
+    image: vshkinder11/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
